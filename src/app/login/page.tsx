@@ -26,7 +26,7 @@ export default function LoginPage() {
 
       if (response.ok) {
         // Redirect to Flask app predict page - Update this URL with your actual Flask app URL
-        window.location.href = 'http://10.2.4.122:5000/predict';
+        //window.location.href = 'http://10.2.4.122:5000/predict';
         window.location.href = 'https://telecom-churn-se.onrender.com/';
       } else {
         setError(data.error || 'Login failed');
